@@ -1,0 +1,30 @@
+html {
+	background: url(../images/bridge.jpeg) no-repeat center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	background: transparent;
+}
+
+
+.container {
+	max-width: 1000px;
+}
+
+.page-header {
+	padding-top: 15px;
+	border-bottom: none;
+}
+
+.about, .projects {
+	background-color: rgba(240, 240, 240, 0.75);
+	border-radius: 8px;
+	width: 1000px;
+	max-width: 95%;
+	margin: 10px;
+}
+
