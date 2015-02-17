@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fred Sites | Developer</title>
+    <title>Fred Sites |  Front End Developer</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
@@ -30,9 +30,9 @@
           <p class="navbar-brand">Fred Sites</p>
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a id="about-link">About</a></li>
-              <li><a id="portfolio-link">Projects</a></li>
-              <li><a id="contact-link">Contact</a></li>
+              <li><a class="about-link">About</a></li>
+              <li><a class="portfolio-link">Projects</a></li>
+              <li><a class="contact-link">Contact</a></li>
             </ul>
           </div>
       </div>
@@ -48,10 +48,9 @@
     <div class="container about">
       <div>
         <h1 class="text-justify">About</h1>
-        <img src="images/fred-ed.png" alt="fred" class="img-circle pull-right" height="100px" width="100px">
       </div>
         <p>I am a Front End Developer based in the San Francisco Bay Area. After completing my MBA, I began web development through the many resources available online.</p>
-        <p>I found front-end to be quite addicting and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer. My goal is to get a position with a front end team in the Bay Area. In this position I'll continue to build development skills and grow professionally while being a valuable team member. Take a look at some projects below, on <a href="www.github.com/fsites">GitHub</a>, or say hi on <a href="#phone">social media</a>.</p>
+        <p>I found front-end to be quite addicting and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer. My goal is to get a position with a front end team in the Bay Area. In this position I'll continue to build development skills and grow professionally while being a valuable team member. Feel free to take a look at <a class="portfolio-link">some projects</a> or <a class="contact-link">contact me</a>.</p>
     </div>
 
 
@@ -95,10 +94,56 @@
     </div>
 
     <!-- Contact -->
+    <div class="container contact-form">
+      <h1 class="text-left">Get In Touch</h1>
+      <div class="row">
+          <div class="col-md-6">
+              <div class="well well-sm">
+                  <form class="form-horizontal email-form" method="post">
+                      <fieldset>
+                          <div class="form-group">
+                              <div class="col-md-12">
+                                  <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+                              </div>
+                          </div>
 
+                          <div class="form-group">
+                              <div class="col-md-12">
+                                  <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                              </div>
+                          </div>
 
-    <!-- Footer -->
-    <div class="text-center">
+                          <div class="form-group">
+                              <div class="col-md-12">
+                                  <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                              </div>
+                          </div>
 
+                          <div class="form-group">
+                              <div class="col-md-12">
+                                  <textarea class="form-control" id="message" name="message" placeholder="Enter your message here" rows="7"></textarea>
+                              </div>
+                          </div>
+
+                          <div class="form-group">
+                              <div class="col-md-12">
+                                  <button type="submit" class="btn btn-success btn-lg">Send</button>
+                              </div>
+                          </div>
+                      </fieldset>
+                  </form>
+              </div>
+          </div>
+        <div class="text-center col-md-6">
+          <div>
+            <img src="images/fred-ed.png" alt="fred" class="img-circle" height="120px" width="120px">
+            <a href="https://www.facebook.com/fred.sites" target="_blank"><img src="images/facebook.svg" alt="Facebook" height="120px" width="120px"/></a>
+            <a href="https://www.linkedin.com/pub/fred-sites/21/481/945" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" height="120px" width="120px" /></a>
+            <a href="https://github.com/fsites"><img src="images/git.svg" alt="LinkedIn" height="120px" width="120px" /></a>
+          </div><br>
+          <a class="h3" href="tel:6036606353">603 660 6353</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

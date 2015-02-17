@@ -8,6 +8,14 @@ html {
 
 body {
 	background: transparent;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 60px;
+}
+
+.navbar {
+	background-color: #3c3c3c;
 }
 
 
@@ -16,10 +24,15 @@ body {
 	border-bottom: none;
 }
 
-.about, .projects {
+.about, .projects, .contact-form {
 	background-color: rgba(240, 240, 240, 0.75);
 	border-radius: 8px;
 	margin: 10px;
+}
+
+
+.email-form {
+	background: none;
 }
 
 a:hover {
