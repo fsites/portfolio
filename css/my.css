@@ -8,23 +8,55 @@ html {
 
 body {
 	background: transparent;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
 }
 
-
-.container {
-	max-width: 1000px;
+.navbar {
+	background-color: #3c3c3c;
 }
+
 
 .page-header {
 	padding-top: 15px;
 	border-bottom: none;
 }
 
-.about, .projects {
+.about, .projects, .contact-form {
 	background-color: rgba(240, 240, 240, 0.75);
 	border-radius: 8px;
-	width: 1000px;
-	max-width: 95%;
 	margin: 10px;
+	min-width: 95%;
+	max-width: 100%;
+	margin: 0 auto;
 }
+
+.fred-pic {
+	margin: 20px 5px 10px 5px;
+	height: 150px;
+	width: 150px;
+}
+
+
+.email-form {
+	background: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+
+.phone:hover {
+	text-decoration: none;
+	color: #C0362C;
+}
+
+.social-links:hover {
+	border: 5px #C0362C solid;
+}
+
+
 
