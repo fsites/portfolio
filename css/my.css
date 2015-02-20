@@ -9,9 +9,9 @@ html {
 body {
 	background: transparent;
 	height: 100%;
-	margin: 0;
+	width: 100%;
+	margin: 0 auto;
 	padding: 0;
-	margin-bottom: 60px;
 }
 
 .navbar {
@@ -28,6 +28,15 @@ body {
 	background-color: rgba(240, 240, 240, 0.75);
 	border-radius: 8px;
 	margin: 10px;
+	min-width: 95%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.fred-pic {
+	margin: 20px 5px 10px 5px;
+	height: 150px;
+	width: 150px;
 }
 
 
@@ -38,3 +47,16 @@ body {
 a:hover {
 	cursor: pointer;
 }
+
+
+.phone:hover {
+	text-decoration: none;
+	color: #C0362C;
+}
+
+.social-links:hover {
+	border: 5px #C0362C solid;
+}
+
+
+

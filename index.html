@@ -19,6 +19,7 @@
 
   </head>
   <body class="container">
+
     <!-- Navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
@@ -27,9 +28,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-          <p class="navbar-brand">Fred Sites</p>
+          <a class="navbar-brand about-link">Fred Sites</a>
           <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right pull-right">
               <li><a class="about-link">About</a></li>
               <li><a class="portfolio-link">Projects</a></li>
               <li><a class="contact-link">Contact</a></li>
@@ -39,29 +40,33 @@
     </div>
 
     <!-- Masthead -->
-    <div class="container text-right page-header">
+    <div class="text-right page-header">
         <h1>Fred Sites</h1>
         <h2>Front End Developer</h2>
     </div>
 
     <!-- About -->
     <div class="container about">
-      <div>
-        <h1 class="text-justify">About</h1>
+      <div class="row vertical-align">
+        <div class="col-sm-9 text-justify">
+          <h1>About</h1>
+          <p>I am a Front End Developer based in the San Francisco Bay Area. After completing my MBA, I began web development through resources available online. I found front-end to be fun, a bit addicting, and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer.</p>
+          <p>My goal is to get a position with a front end team in the Bay Area. In this position I'll continue to build development skills and grow professionally while being a valuable team member. Feel free to take a look at <a class="portfolio-link">some projects I'm working on</a> or <a class="contact-link">contact me</a>.</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <img src="images/fred-ed.png" alt="fred" class="img-circle fred-pic">
+        </div>
       </div>
-        <p>I am a Front End Developer based in the San Francisco Bay Area. After completing my MBA, I began web development through the many resources available online.</p>
-        <p>I found front-end to be quite addicting and rewarding. With so much to learn and many resources available, I'm finding it hard to pull myself away from the computer. My goal is to get a position with a front end team in the Bay Area. In this position I'll continue to build development skills and grow professionally while being a valuable team member. Feel free to take a look at <a class="portfolio-link">some projects</a> or <a class="contact-link">contact me</a>.</p>
     </div>
-
 
     <!-- Projects -->
     <div class="container projects">
       <h1>Projects</h1>
       <p>Click an image to see the project on Github</p>
       <div class="row">
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="images/bart-thumbnail.png" alt="Real Time Bart">
+            <img src="images/bart-thumbnail.png" alt="Real Time Bart" height="317px" width="317px">
             <div class="caption">
               <h3>Real Time Bart</h3>
               <p>Built from scratch using the Bart API to get real time upcoming train departures. HTML/CSS/Javascript/Ajax</p>
@@ -70,9 +75,9 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="images/quiz-thumbnail.png" alt="A's Quiz">
+            <img src="images/quiz-thumbnail.png" alt="A's Quiz" height="317px" width="317px">
             <div class="caption">
               <h3>Oakland A's Trivia</h3>
               <p>Oakland A's trivia app built using HTML/CSS/Javascript.</p>
@@ -80,9 +85,10 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4">
+
+        <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="images/stem-thumbnail.png" alt="To Do List">
+            <img src="images/stem-thumbnail.png" alt="To Do List" height="317px" width="317px">
             <div class="caption">
               <h3>To Do List</h3>
               <p>Simple to do list app I built for work using HTML/CSS/jQuery.</p>
@@ -121,7 +127,7 @@
 
                           <div class="form-group">
                               <div class="col-md-12">
-                                  <textarea class="form-control" id="message" name="message" placeholder="Enter your message here" rows="7"></textarea>
+                                  <textarea class="form-control" id="message" name="message" placeholder="This form doesn't work yet... standby" rows="7"></textarea>
                               </div>
                           </div>
 
@@ -136,12 +142,11 @@
           </div>
         <div class="text-center col-md-6">
           <div>
-            <img src="images/fred-ed.png" alt="fred" class="img-circle" height="120px" width="120px">
-            <a href="https://www.facebook.com/fred.sites" target="_blank"><img src="images/facebook.svg" alt="Facebook" height="120px" width="120px"/></a>
-            <a href="https://www.linkedin.com/pub/fred-sites/21/481/945" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn" height="120px" width="120px" /></a>
-            <a href="https://github.com/fsites"><img src="images/git.svg" alt="LinkedIn" height="120px" width="120px" /></a>
+            <a href="https://www.facebook.com/fred.sites" target="_blank"><img class="img-circle social-links" src="images/facebook.svg" alt="Facebook" height="120px" width="120px"/></a>
+            <a href="https://www.linkedin.com/pub/fred-sites/21/481/945" target="_blank"><img class="img-circle social-links" src="images/linkedin.svg" alt="LinkedIn" height="120px" width="120px" /></a>
+            <a href="https://github.com/fsites"><img class="img-circle social-links" src="images/git.svg" alt="LinkedIn" height="120px" width="120px" /></a>
           </div><br>
-          <a class="h3" href="tel:6036606353">603 660 6353</a>
+          <h2><a class="h2 phone" href="tel:6036606353">603 660 6353</a></h3>
         </div>
       </div>
     </div>
